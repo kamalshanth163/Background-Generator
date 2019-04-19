@@ -11,7 +11,7 @@ function setGradient() {
   css.textContent = body.style.background + ";";
 }
 
-direction.addEventListener("input", setGradient);
-color1.addEventListener("input", setGradient);+
+// direction.addEventListener("input", setGradient);
+color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
 
