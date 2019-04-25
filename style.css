@@ -12,7 +12,7 @@
   text-transform: uppercase;
   letter-spacing: .5em;
   top: 15%;
-	background: linear-gradient(to right, #d20000, #f95100);; /* Standard syntax */
+	background: linear-gradient(to right, rgb(210, 0, 0), rgb(249, 81, 0)); /* Standard syntax */
   /* height: 100%;
   background-position: center;
   background-repeat: no-repeat;
