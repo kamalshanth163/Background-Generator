@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
+  font-family: 'Roboto' !important;
  }
  
  body {
@@ -11,7 +12,7 @@
   text-transform: uppercase;
   letter-spacing: .5em;
   top: 15%;
-	background: linear-gradient(to right, #97e425 , #54a4e6); /* Standard syntax */
+	background: linear-gradient(to right, #d20000, #f95100);; /* Standard syntax */
   /* height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,44 +26,43 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .5em;
-  width: 100%;
+  width: 80%;
+  padding-top: 50px;
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 14px;
+  padding-top: 60px;
+  margin-top: 80px;
+  padding: 20px;
+  text-align: center;
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
+  font: 900 1em 'Raleway', sans-serif;
   color: rgba(0,0,0,.5);
   text-align: center;
   text-transform: none;
   letter-spacing: 0.01em;
+  font-size: 22px;
+  padding: 40px;
 
 }
 input[type="color"] {
   height: 60px;
   width: 100px;
-  margin: 20px;
+  margin: 60px 20px 0px;
   border: none;
-  /* padding: 30px; */
 }
 
-p {
-  font-size: 12px;
-  color: #111;
-
+p{
+  font-size: 10px;
+  padding: 40px;
 }
 
 /* Responsiveness ================================= */
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-
-  
-}
-
 
 
 /* 
@@ -70,9 +70,10 @@ p {
   ##Screen = B/w 320px to 479px
 */
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   
   body {
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -86,8 +87,10 @@ p {
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 12px;
     padding-top: 60px;
+    margin-top: 80px;
+    padding: 20px;
     text-align: center;
   }
   
@@ -101,7 +104,7 @@ p {
   input[type="color"] {
     height: 50px;
     width: 20%;
-    margin-top: 40px;
+    margin-top: 80px;
     border: none;
     outline: none;
   }
