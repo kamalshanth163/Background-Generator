@@ -12,12 +12,9 @@
   text-transform: uppercase;
   letter-spacing: .5em;
   top: 15%;
-	background: linear-gradient(to right, rgb(210, 0, 0), rgb(249, 81, 0)); /* Standard syntax */
-  /* height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
+	background: linear-gradient(to right, rgb(0, 128, 255), rgb(255, 0, 128)); /* Standard syntax */
+ 
+}  
 
 
 h1 {
